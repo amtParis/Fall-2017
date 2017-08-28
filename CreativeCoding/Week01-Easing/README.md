@@ -11,7 +11,9 @@
 
 1. Complete the easing "cheat sheet" exercise from class to show various types of curves (*extra credit* : animate along curves only on mouse over). 
 
-2. Create composition using tweens and/or zeno to apply different changes in properties - motion, shape, scale, volume. Make a gif of your results. 
+2. Create composition using tweens and/or zeno to apply different changes in properties - motion, shape, scale, volume. Try to make it smooth, elegant and organic. Make a gif of your results.
+
+3. Modify your composition or create a new one that augments or overlays an existing image (render on top of a photograph, drawing, design etc.)
 
 
 ## Reading Assignments:
@@ -22,7 +24,11 @@
 
 [Chapter 04: Animation](http://openframeworks.cc/ofBook/chapters/animation.html) from the ofBook (up to Function based movement)
 
+Optional Sci-Fi Reading: [The Murder](http://www.sediment.uni-goettingen.de/staff/dunkl/zips/The-Murderer.pdf), by Ray Bradbury
+
 ## Preparation for Next Class:
+
+List 3 areas you may want to research for your semester project.
 
 Download [Openframeworks](http://openframeworks.cc/) and install the appropriate IDE for your platform (Xcode for Mac, Visual Studio for Windows)
 
