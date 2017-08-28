@@ -2,30 +2,30 @@
 
 ## Topics:
 - Numbers between 0 and 1 are awesome
-- Linear / Nonlinear Interpolation
+- Linear / Non-linear Interpolation
 - Zeno for smoothing a value
 
 ## Code Assignments:
 
-1. Complete the easing "cheat sheet" exercise from class to show various types of curves (extra credit : animate along curves only on mouse over). 
+*Use either P5.js or OpenFrameworks for this week's assignments. Post your work on github or bitbucket.*
 
-2. Create a composition using tweens to apply different changes in properties - motion, shape, scale, volume. Make a gif of your results. 
+1. Complete the easing "cheat sheet" exercise from class to show various types of curves (*extra credit* : animate along curves only on mouse over). 
+
+2. Create composition using tweens and/or zeno to apply different changes in properties - motion, shape, scale, volume. Make a gif of your results. 
 
 3. 
 
-You may use P5.js or OpenFrameworks.
-
 ## Reading Assignments:
 
-[Chapter 01: How OF Works](https://github.com/openframeworks/ofBook/blob/master/chapters/how_of_works/chapter.md) from the ofBook
+[Chapter 01: How OF Works](http://openframeworks.cc/ofBook/chapters/how_of_works.html) from the ofBook
 
-[Chapter 03: setup and project structure](https://github.com/openframeworks/ofBook/blob/master/chapters/setup_and_project_structure/chapter.md) from the ofBook
+[Chapter 03: setup and project structure](http://openframeworks.cc/ofBook/chapters/setup_and_project_structure.html) from the ofBook
 
-[Chapter 04: Animation](https://github.com/openframeworks/ofBook/blob/master/chapters/animation/chapter.md) from the ofBook (up to Function based movement)
+[Chapter 04: Animation](http://openframeworks.cc/ofBook/chapters/animation.html) from the ofBook (up to Function based movement)
 
 ## Preparation for Next Class:
 
-Download [Openframeworks](http://openframeworks.cc) and install the appropriate IDE for your platform (Xcode for Mac etc.)
+Download [Openframeworks](http://openframeworks.cc/) and install the appropriate IDE for your platform (Xcode for Mac, Visual Studio for Windows)
 
 ## Other Resources:
 
