@@ -13,7 +13,6 @@
 
 2. Create composition using tweens and/or zeno to apply different changes in properties - motion, shape, scale, volume. Make a gif of your results. 
 
-3. 
 
 ## Reading Assignments:
 
