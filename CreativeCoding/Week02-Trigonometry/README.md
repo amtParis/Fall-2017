@@ -6,6 +6,7 @@
 - Angles
 - Sin, Cosine, atan2
 - OF Intro
+- Git review
 
 ## Code Assignments:
 
@@ -22,3 +23,13 @@
 [ofBook: Graphics Basics](http://openframeworks.cc/ofBook/chapters/intro_to_graphics.html)
 
 [ofBook : OOP](http://openframeworks.cc/ofBook/chapters/OOPs!.html)
+
+Optional Sci-Fi Reading [Binti (excerpt) by Nnedi Okorafor](https://www.tor.com/2015/08/17/excerpts-binti-nnedi-okorafor/)
+
+## Research 
+
+Begin a shared research document that will chronicle your investigations over the semester.
+
+## Other Resources
+
+[Nature of Code: Oscillation](http://natureofcode.com/book/chapter-3-oscillation/)
