@@ -39,3 +39,8 @@ Download [Openframeworks](http://openframeworks.cc/) and install the appropriate
 [One Argument Easing Equations](https://gist.github.com/rezoner/713615dabedb59a15470)
 
 [Easing.net](http://easings.net/)
+
+![gif](https://github.com/baice963/Creative-Coding/blob/master/homework%232/gif_2.gif "ice")
+![gif](https://github.com/djdasha/CC/blob/master/p5-easing-homework-4/%233.gif "dasha")
+![gif](https://github.com/krismadden/creativecoding/blob/master/Week01/03.%20easing-non-linear-02-w-mouse-over-w-size/gif.gif "kris")
+![gif](https://camo.githubusercontent.com/88fe2375ff75ff6f2a19b25c82221beea97b660a/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f314d363371496137757a6635432f67697068792e676966 "amanda")
