@@ -24,6 +24,9 @@ During this course students will advance their programming skills while also exp
 
 [ml4a](ml4a.github.io)
 
+[giphy capture](https://giphy.com/apps/giphycapture)
+
+
 ## Repos
 
 [Sanie](https://github.com/sonya-irsay/creativecode)
