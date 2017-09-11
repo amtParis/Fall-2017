@@ -28,12 +28,16 @@
 
 
 Optional (but great!):
+
 [Book of Shaders 4: Running your Shader](https://thebookofshaders.com/04/)
 
 [Book of Shaders 5: Shaping Functions](https://thebookofshaders.com/05/)
 
 
-Optional Inspiration: [Learning C as You Go](http://stephaniehurlburt.com/blog/2016/5/29/learning-c-as-you-go)
+Optional Inspiration: 
+
+[Learning C as You Go](http://stephaniehurlburt.com/blog/2016/5/29/learning-c-as-you-go)
+
 
 ## Other Resources
 
