@@ -3,7 +3,7 @@
 ## Topics:
 
 - Creating classes and objects in OF
-- Using vector<>
+- Using vector<> 
 - Intro to fragment shaders
 
 ## Code Assignments
@@ -19,6 +19,8 @@
 ## Reading Assignments
 
 [ofBook: Shaders](http://openframeworks.cc/ofBook/chapters/shaders.html)
+
+[Intro to C++ vectors](http://openframeworks.cc/ofBook/chapters/stl_vector.html)
 
 [Book of Shaders 1: Getting Started](https://thebookofshaders.com/01/)
 
