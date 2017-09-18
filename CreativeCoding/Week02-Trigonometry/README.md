@@ -33,3 +33,13 @@ Begin a shared research document that will chronicle your investigations over th
 ## Other Resources
 
 [Nature of Code: Oscillation](http://natureofcode.com/book/chapter-3-oscillation/)
+
+
+## Gallery
+
+![gif](https://github.com/sonya-irsay/creativecode/blob/master/WEEK_02/1_animation.gif "sanie")
+![gif](https://github.com/sonya-irsay/creativecode/blob/master/WEEK_02/3_character.gif "sanie")
+![gif](https://github.com/baice963/Creative-Coding/blob/master/ofIntro/homework1/planets.gif "ice")
+![gif](https://camo.githubusercontent.com/63d1d9c3d2e033462588f757759adee72fa4c4f8/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f336f3761435243764f50444934374d6c76572f67697068792e676966 "kris")
+![gif](https://camo.githubusercontent.com/819451b0170bb94475e9d90436428ca14486da64/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f336f76396b316a6b4e4351586e6661766f512f67697068792e676966 "kris")
+![gif](https://github.com/djdasha/CC/blob/master/sin_example/sin.gif "dasha")
