@@ -21,9 +21,13 @@ Download and install Unity (personal version)
 
 ## Reading Assignments
 
-
+[What is Virtual Reality](https://drive.google.com/a/newschool.edu/file/d/0B75SR8fnd4QkaTRSOU1USzI0a2c/view?usp=sharing)
 
 Recommended:
+
+[ofBook: Audio](http://openframeworks.cc/ofBook/chapters/sound.html#reactingtoliveaudio)
+
+[ofBook: Meshes](http://openframeworks.cc/ofBook/chapters/generativemesh.html)
 
 
 
