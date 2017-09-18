@@ -17,7 +17,7 @@
 
 ## Prepare for Next Class
 
-Download and install Unity (personal version)
+Download and install [Unity](https://unity3d.com/get-unity/download) (personal version)
 
 ## Reading Assignments
 
