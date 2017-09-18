@@ -44,3 +44,7 @@ Optional Inspiration: [Learning C as You Go](http://stephaniehurlburt.com/blog/2
 [ShaderToy](https://www.shadertoy.com/)
 
 [GLSL Sandbox](http://glslsandbox.com/)
+
+## Gallery
+![gif](https://github.com/djdasha/CC/blob/master/shader_homework/shader2.gif "dasha")
+![gif](https://github.com/djdasha/CC/blob/master/shader_homework/shader1.gif "dasha")
