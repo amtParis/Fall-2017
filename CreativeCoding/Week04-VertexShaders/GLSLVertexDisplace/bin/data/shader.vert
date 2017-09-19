@@ -9,10 +9,8 @@ void main()
 {
     // get the texture coordinates
     texCoordVarying = gl_MultiTexCoord0.xy;
-
-    // get the position of the vertex relative to the modelViewProjectionMatrix
-    vec4 position = ftransform();
-    vec4 modifiedPosition = position;
+    
+    vec4 modifiedPosition = gl_Vertex;
     
     // we need to scale up the values we get from the texture
     float scale = 200;
@@ -23,8 +21,8 @@ void main()
 		
     // use the displacement we created from the texture data
     // to modify the vertex position
-    modifiedPosition.y += displacementY * scale * (sin(time));
+    modifiedPosition.z += displacementY * scale * (sin(time));
 
-    // this is the resulting vertex position
-	gl_Position = modifiedPosition;
+    // this is the resulting vertex position multiplied by the correct matrix
+	gl_Position = gl_ModelViewProjectionMatrix * modifiedPosition;
 }
