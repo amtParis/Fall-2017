@@ -46,5 +46,6 @@ Optional Inspiration: [Learning C as You Go](http://stephaniehurlburt.com/blog/2
 [GLSL Sandbox](http://glslsandbox.com/)
 
 ## Gallery
+![gif](https://github.com/amtParis/Fall-2017/blob/master/CreativeCoding/Week03-Fragment-Shaders/Gallery/Sep-18-2017%2021-35-43.gif "qinqin")
 ![gif](https://github.com/djdasha/CC/blob/master/shader_homework/shader2.gif "dasha")
 ![gif](https://github.com/djdasha/CC/blob/master/shader_homework/shader1.gif "dasha")
