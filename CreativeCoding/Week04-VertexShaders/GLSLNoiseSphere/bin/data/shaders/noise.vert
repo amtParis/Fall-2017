@@ -27,7 +27,7 @@ void main(){
     vec3 normal = (gl_NormalMatrix * gl_Normal);
     
     // get a turbulent 3d noise using the normal, normal to high freq
-    float noise = 50.0 *  -.10 * turbulence( .5 * gl_Normal );
+    float noise = 50.0 *  -.10 * turbulence( .5 * normal.xyz );
     // get a 3d noise using the position, low frequency
     float b = 5.0 * pnoise( 0.05 * position.xyz, vec3( 100.0 ) );
     // compose both noises

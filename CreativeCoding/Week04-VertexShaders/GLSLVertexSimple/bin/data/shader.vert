@@ -7,6 +7,7 @@ uniform float time;
 
 void main()
 {
+    vec4 vertex = gl_Vertex;
     vec4 position = gl_ModelViewProjectionMatrix * gl_Vertex;
     
     // alternatively the above can be written:
@@ -16,7 +17,7 @@ void main()
     // so we use the x coordinate of each vertex for the calculation,
     // but we displace all the vertex along the y axis (up the screen)/
     float displacementHeight = 80.0;
-    float displacementY = sin(time + (position.x / 100.0)) * displacementHeight;
+    float displacementY = sin(time + (vertex.x / 80.0)) * displacementHeight;
 	
     vec4 modifiedPosition = position;
     vec3 normal = (gl_NormalMatrix * gl_Normal);
