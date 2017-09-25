@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Basics Examples/Scenes/04 RayCast.unity
+  isLoaded: 1
+  isActive: 1

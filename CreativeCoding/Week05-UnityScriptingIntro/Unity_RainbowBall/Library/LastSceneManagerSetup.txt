@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Rainbow Ball/Scenes/ProjectBall.unity
+  isLoaded: 1
+  isActive: 1

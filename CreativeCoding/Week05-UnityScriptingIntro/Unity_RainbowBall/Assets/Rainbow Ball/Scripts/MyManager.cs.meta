@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7103c465707ba44e1ad1af78c1eb3f6e
+timeCreated: 1499802056
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - bowlingBall: {fileID: 1374911049034720, guid: 36c014fe410a449bfa5b559ebacfe852,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
