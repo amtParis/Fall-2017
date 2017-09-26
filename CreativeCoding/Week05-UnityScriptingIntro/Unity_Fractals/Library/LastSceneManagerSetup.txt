@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/FractalScene.unity
+- path: Assets/Fractals/FractalScene.unity
   isLoaded: 1
   isActive: 1
