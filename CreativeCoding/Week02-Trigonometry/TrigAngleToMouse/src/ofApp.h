@@ -21,6 +21,7 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
     
+        // type that has x, y, z properties
         ofPoint followPos;
 		
 };

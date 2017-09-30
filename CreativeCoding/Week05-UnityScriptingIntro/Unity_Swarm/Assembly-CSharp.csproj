@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{30D8FC6A-8CBE-963D-97A4-06F2F3467E21}</ProjectGuid>
+    <ProjectGuid>{ED70FC8F-849E-7EF2-AEC1-8955FE243E64}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,6 +54,8 @@
      <Compile Include="Assets\Scripts\Boid.cs" />
      <Compile Include="Assets\Scripts\BoidController.cs" />
      <Compile Include="Assets\Scripts\BoidTarget.cs" />
+     <Compile Include="Assets\Scripts\MySphere.cs" />
+     <Compile Include="Assets\Scripts\QueenOfUniverse.cs" />
      <None Include="Assets\Shaders\Trail Particle.shader" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>

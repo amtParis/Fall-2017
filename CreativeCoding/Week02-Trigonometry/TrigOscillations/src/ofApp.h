@@ -1,6 +1,13 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofxGui.h"
+
+
+enum gameState{
+    PATTERN_SCENE,
+    SQUARE_SCENE
+};
 
 class ofApp : public ofBaseApp{
 
@@ -20,5 +27,11 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+    
+        // gui panel that holds the sliders, buttons etc.
+        ofxPanel gui;
+        ofxFloatSlider freqSlider;
+    
+        gameState currentState;
 		
 };

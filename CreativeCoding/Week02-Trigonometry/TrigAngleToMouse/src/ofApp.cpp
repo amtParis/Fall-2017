@@ -3,13 +3,16 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
     
-    followPos = ofPoint( ofGetWidth() , ofGetHeight() );
+    // setting initial values for x and y of followPos
+    followPos = ofPoint( ofGetWidth() / 2 , ofGetHeight() / 2 );
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
     
     float pct = .99;
+    
+    //
     followPos.x = followPos.x * pct + mouseX * (1-pct);
     followPos.y = followPos.y * pct + mouseY * (1-pct);
 }
@@ -20,8 +23,9 @@ void ofApp::draw(){
     float angle = atan2(mouseY-followPos.y,mouseX-followPos.x);
     ofPushMatrix();
     ofTranslate(followPos);
-    ofRotate(ofRadToDeg(angle));
-    ofDrawRectangle(-20,-20,40,40);
+        ofRotate( ofRadToDeg(angle) );
+        ofDrawRectangle(-20,-20,40,40);
+        ofDrawRectangle(30,-10,20,20);
     ofPopMatrix();
 }
 
