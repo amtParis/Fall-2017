@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Swarm.unity
+- path: Assets/SwarmMain/Scenes/Swarm.unity
   isLoaded: 1
   isActive: 1
