@@ -7,6 +7,7 @@ void ofApp::setup(){
     // add our slider to the gui slider: setup(name,defaultval,min,max)
     gui.setup();
     gui.add( freqSlider.setup("Sin Freq",1,.25,10) );
+    gui.add( redValue.setup("Red",127,0,255) );
     
     currentState = PATTERN_SCENE;
 }
@@ -26,7 +27,7 @@ void ofApp::draw(){
     float g = ofMap( sin( ofGetElapsedTimef() * .25 ),-1,1,0,255);
     float b = ofMap( sin( ofGetElapsedTimef() * .5 ),-1,1,0,255);
     
-    ofSetBackgroundColor(r,g,b);
+    ofSetBackgroundColor(redValue,0,0);
     
     //float freqScale = ofMap(mouseX,0,ofGetWidth(), 1, 20);
     // draw a reactangle in the center

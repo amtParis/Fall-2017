@@ -12,19 +12,21 @@ public class GenerateMesh : MonoBehaviour {
 
 	Mesh mesh;
 	Vector3 [] vertices;
+	Vector3 [] o_vertices; // original vertices
 	Color[] colors;
-	public Gradient coloring;
+
 
 	int xSize = 50;
 	int ySize = 50;
-	float scale = 2F;
 
+
+	public Gradient coloring;
 	[Range(1F,500F)]
 	public float freq = 100.0F;
 	[Range(1,10)]
 	public int octaves = 4;
-	[Range(1F,500F)]
-	public float amp = 100F;
+	[Range(.1F,500F)]
+	public float amp = 1F;
 
 
 	// Use this for initialization
@@ -36,14 +38,16 @@ public class GenerateMesh : MonoBehaviour {
 
 
 		vertices = new Vector3[ (xSize + 1) * (ySize + 1) ];
+		o_vertices= new Vector3[ (xSize + 1) * (ySize + 1) ];
 		colors = new Color[vertices.Length];
 
-		for (int i = 0, y = 0; y < ySize; y++) {
-			for (int x = 0; x < xSize; x++, i++) {
+		for (int i = 0, y = 0; y <= ySize; y++) {
+			for (int x = 0; x <= xSize; x++, i++) {
 
 				float colorVal = 1F;
 				colors[i] = coloring.Evaluate( colorVal );
-				vertices[i] = new Vector3(x*scale,0F, y*scale);
+				vertices[i] = new Vector3(x,0F,y) - transform.localScale.x*new Vector3(xSize,amp,ySize);
+				o_vertices[i] = new Vector3(x,0F,y) - transform.localScale.x*new Vector3(xSize,amp,ySize);;
 			}
 		}
 		mesh.vertices = vertices;
@@ -80,14 +84,14 @@ public class GenerateMesh : MonoBehaviour {
 				float gain = 1F;
 				for(int j = 0; j < octaves; j++){
 
-					noiseVal +=  Mathf.PerlinNoise( (x+time)*gain/freq, (y+time)*gain/freq) * amp/gain;
+					noiseVal +=  Mathf.PerlinNoise( (time*.1f)+x*gain/freq, (time*.1f)+y*gain/freq) * amp/gain;
 					gain *= 2.0F;
 
 				}
 
 				float colorVal = (noiseVal- amp*.5F) / (amp*.5F);
 				colors[i] = coloring.Evaluate( colorVal );
-				vertices[i] = new Vector3(x*scale - .5F*(xSize*scale), noiseVal - amp*.5F, y*scale- .5F*(ySize*scale));
+				vertices[i] = o_vertices[i] + new Vector3(0F, noiseVal - amp*.5F, 0F);
 			}
 		}
 		mesh.vertices = vertices;
@@ -95,3 +99,5 @@ public class GenerateMesh : MonoBehaviour {
 		mesh.RecalculateNormals();
 	}
 }
+
+

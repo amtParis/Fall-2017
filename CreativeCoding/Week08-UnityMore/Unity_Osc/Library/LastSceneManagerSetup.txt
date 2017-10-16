@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Osc/Scenes/oscScene.unity
+  isLoaded: 1
+  isActive: 1

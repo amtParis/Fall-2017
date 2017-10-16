@@ -31,6 +31,8 @@ class ofApp : public ofBaseApp{
         // gui panel that holds the sliders, buttons etc.
         ofxPanel gui;
         ofxFloatSlider freqSlider;
+        ofxIntSlider redValue;
+    
     
         gameState currentState;
 		
