@@ -9,6 +9,7 @@ using UnityEngine;
 
 public class GenerateMesh : MonoBehaviour {
 
+	public GameObject myPrefab;
 
 	Mesh mesh;
 	Vector3 [] vertices;
@@ -47,7 +48,7 @@ public class GenerateMesh : MonoBehaviour {
 				float colorVal = 1F;
 				colors[i] = coloring.Evaluate( colorVal );
 				vertices[i] = new Vector3(x,0F,y) - transform.localScale.x*new Vector3(xSize,amp,ySize);
-				o_vertices[i] = new Vector3(x,0F,y) - transform.localScale.x*new Vector3(xSize,amp,ySize);;
+				o_vertices[i] = new Vector3(x,0F,y) - transform.localScale.x*new Vector3(xSize,amp,ySize);
 			}
 		}
 		mesh.vertices = vertices;
@@ -68,8 +69,15 @@ public class GenerateMesh : MonoBehaviour {
 		mesh.triangles = triangles;
 
 		mesh.RecalculateNormals();
-
 		GetComponent<MeshFilter>().mesh = mesh;
+
+
+		for (int i = 0; i < vertices.Length; i++) {
+			GameObject sphere = Instantiate(myPrefab, vertices[i], Quaternion.identity);
+			sphere.transform.parent = transform;
+			sphere.transform.localScale = transform.localScale;
+		}
+
 	}
 	
 	// Update is called once per frame
@@ -94,9 +102,9 @@ public class GenerateMesh : MonoBehaviour {
 				vertices[i] = o_vertices[i] + new Vector3(0F, noiseVal - amp*.5F, 0F);
 			}
 		}
-		mesh.vertices = vertices;
-		mesh.colors = colors;
-		mesh.RecalculateNormals();
+		//mesh.vertices = vertices;
+		//mesh.colors = colors;
+		//mesh.RecalculateNormals();
 	}
 }
 
