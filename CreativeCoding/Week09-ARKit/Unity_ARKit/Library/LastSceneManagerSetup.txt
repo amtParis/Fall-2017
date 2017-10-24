@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/UnityARKitPlugin/Examples/UnityAROcclusion/UnityAROcclusion.unity
+  isLoaded: 1
+  isActive: 1
