@@ -6,13 +6,11 @@
 
 ##  Assignments
 
-1. Find a new image set to visualize using TSNE (you may use the download scripts from class or the examples or find a set in another way). Create a TSNE image grid using ofxTSNE and save your results. If you want to experiment with other types of data, you may, and be sure to take screenshots of the results.
+1. Find a new image set to visualize using TSNE (you may use the download scripts or the examples or find a set in another way). Create a TSNE image grid using ofxTSNE and save your results. You can work in groups.
 
-2. Train the char-rnn on a new text (it should not be too short or training will not produce good results) and run it through ofxMSATensorFlow example to generate new texts. Save the most interesting results.
+2. Try out [DeepArt](https://deepart.io) to create a series of original style transfer images.
 
-3. Try out [DeepArt](https://deepart.io) to create a series of original style transfer images.
-
-4. Make some significant progress on the final projects!!!
+4. Make some significant progress on the final projects!!! We will work on these next class.
 
 ## Read
 
