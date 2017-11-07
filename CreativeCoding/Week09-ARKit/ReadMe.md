@@ -19,6 +19,6 @@
 
 [ARKit OF Addon](https://github.com/sortofsleepy/ofxARKit)
 
-[Vuforia in 5 Minutes](http://www.justapixel.co.uk/how-to-make-an-ar-app-in-5-minutes-with-unity-and-vuforia/)
+[Vuforia Unity](https://library.vuforia.com/articles/Training/getting-started-with-vuforia-in-unity-2017-2-beta.html)
 
 [ARToolkit](https://artoolkit.org)
