@@ -31,13 +31,11 @@ During this course students will advance their programming skills while also exp
 
 [Sanie](https://github.com/sonya-irsay/creativecode)
 
-[DJ Dasha: :-/](https://github.com/djdasha/CC)
+[Dasha:](https://github.com/djdasha/CC)
 
 [Ice](https://github.com/baice963/Creative-Coding)
 
-[Bella: :-)](https://github.com/neonllamas/CreativeCoding) 
-
-[Ashlee (Seungwon)](https://github.com/lowe1711/creativecoding)
+[Bella:](https://github.com/neonllamas/CreativeCoding) 
 
 [Kris](https://github.com/krismadden/creativecoding) 
 
