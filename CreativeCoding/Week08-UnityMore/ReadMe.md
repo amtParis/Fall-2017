@@ -14,3 +14,7 @@
 
 ## Reading
 [Game Rules and Mechanics](https://drive.google.com/a/newschool.edu/file/d/0B75SR8fnd4QkakhjMVlMeFBlWUU/view?usp=sharing)
+
+## Gallery
+
+![gif](https://github.com/baice963/Creative-Coding/blob/master/homework_week8/giphy.gif "ice")
