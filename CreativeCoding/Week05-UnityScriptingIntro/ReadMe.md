@@ -24,7 +24,11 @@ Inspiration:
 [Holistic 3D](http://holistic3d.com)
 
 
+## Gallery
 
+![gif](https://github.com/rabbitqin/cc2/blob/master/week5/swarm.gif "qinqin")
+
+![gif](https://camo.githubusercontent.com/47cc3b46562d41abf1c0db98d2c9d5f724f3e9f8/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f336f686a5634626e565736396c45694c55412f67697068792e676966 "dasha")
 
 
 
