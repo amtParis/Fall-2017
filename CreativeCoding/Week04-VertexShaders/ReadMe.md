@@ -30,5 +30,12 @@ Recommended:
 [ofBook: Meshes](http://openframeworks.cc/ofBook/chapters/generativemesh.html)
 
 
+## Gallery
+![gif](https://github.com/amandamarielewis/creativecoding2017/blob/master/week4/world.gif "amanda")
+![gif](https://github.com/sonya-irsay/creativecode/blob/master/WEEK_04/w4_assignment_01.gif "sanie")
+![gif](https://github.com/sonya-irsay/creativecode/blob/master/WEEK_04/w4_assignment_2.gif "sanie")
+![gif](https://github.com/baice963/Creative-Coding/blob/master/homework_week4/giphy-downsized-large%20(1).gif "ice")
+![gif](https://camo.githubusercontent.com/1347b5aaa4f3b691bc1104b157c48d997d8ad45b/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f336f76396b3473654b55483562385a33636b2f67697068792e676966 "kris")
+![gif](https://github.com/ekermani/creative-coding-assignments/blob/master/week04/jamiexx-gosh_02.gif "erica")
 
 
