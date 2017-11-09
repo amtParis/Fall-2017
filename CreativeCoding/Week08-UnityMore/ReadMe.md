@@ -18,3 +18,5 @@
 ## Gallery
 
 ![gif](https://github.com/baice963/Creative-Coding/blob/master/homework_week8/giphy.gif "ice")
+![gif](https://github.com/sonya-irsay/creativecode/blob/master/WEEK_08/week_8_distortion.gif "sanie")
+![gif](https://github.com/sonya-irsay/creativecode/blob/master/WEEK_08/week_8.gif "sanie")
